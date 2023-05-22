@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+.main-container {
+    border: 2px solid black;
+    width: 50%;
+    padding: 100px;
+    margin: 200px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container1 {
+
+    background-color: rgb(211, 207, 207);
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    margin: 5px;
+}
+
+.contact-img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.container2 {
+    height: 210px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(211, 207, 207);
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border: 2px solid green;
+}
+
+.second {
+    background-color: rgb(211, 207, 207);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.section {
+    display: flex;
+    margin: 10px;
+}
+
+.profile {
+    padding-left: 50px;
+}
+
+.list {
+    padding-left: 75px;
+}
+
+.experience-details {
+    padding-left: 18px;
+}
+
+.third {
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.education {
+    margin: 5px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px 35px;
+}
+
+h4 {
+    font-style: italic;
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" method="post" class="form">
+            <fieldset class="first-section">
+                <legend>PRIMARY DETAILS</legend>
+                <div>
+                    <label for="medicare-no" class="label">Medicare No.</label>
+                    <span><input type="number" name="" id="medicare-no"> / Valid till <input type="date" name=""
+                            id=""></span>
+                </div>
+
+                <div>
+                    <label for="title" class="label">Title</label>
+                    <select name="title" id="title">
+                        <option value="none">None</option>
+                        <option value="first name">First Name</option>
+                        <option value="middle name">Middle Name</option>
+                        <option value="last name">Last Name</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="name" class="label">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="pref name" class="label">Pref. Name</label>
+                    <input type="text" name="pref name" id="pref- name">
+                </div>
+                <div>
+                    <label for="dob" class="label">DOB</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div>
+                    <label for="sex" class="label">Sex</label>
+                    <input type="radio" name="sex" id="sex" value="MALE">
+                    <label for="sex" class="label">Male</label>
+                    <input type="radio" name="sex" id="sex" value="FEMALE">
+                    <label for="sex" class="label">Female</label>
+                </div>
+                <div>
+                    <label for="family name" class="label">Family Name</label>
+                    <input type="text">
+                </div>
+
+
+            </fieldset>
+
+            <fieldset class="first-section">
+                <legend>CONTACT DETAILS</legend>
+                <div class="phone">
+                    <label for="phone" class="label">Phone</label>
+                    <div class="phone-div1">
+                        <div class="phone-div2">
+                            <div class="phone-details">
+                                <label for="home">Home</label>
+                                <input type="number">
+                            </div>
+                            <div class="phone-details">
+                                <label for="work">Work</label>
+                                <input type="number">
+                            </div>
+                        </div>
+
+                        <div class="phone-div2">
+                            <div class="phone-details">
+                                <label for="mobile">Mobile</label>
+                                <input type="number">
+                            </div>
+                            <div class="phone-details">
+                                <label for="fax">Fax</label>
+                                <input type="number">
+                            </div>
+                        </div>
+
+                        <div class="phone-div2">
+                            <div class="phone-details">
+                                <label for="next of kin">Next of Kin</label>
+                                <input type="number">
+                            </div>
+                            <div class="phone-details">
+                                <label for="next of kin ph">Next of Kin Ph:</label>
+                                <input type="number">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div>
+                    <label for="emerg no" class="label">Emerg. No</label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="email" class="label">Email</label>
+                    <input type="email">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Address Details</legend>
+                <fieldset>
+                    <legend>Residential Address</legend>
+                    <div class="address">
+                        <label for="address1" class="label">Address 1</label>
+                        <input type="text" name="" id="" size="40">
+                    </div>
+                    <div class="address">
+                        <label for="address2" class="label">Address 2</label>
+                        <input type="text" name="" id="" size="40">
+                    </div>
+                    <div>
+                        <label for="suburb" class="label">Suburb</label>
+                        <input type="text" name="" id="" size="10">
+                        <label for="state">State</label>
+                        <select name="state" id="state">
+                            <option value="delhi">Delhi</option>
+                            <option value="uttar pradesh">Uttar Pradesh</option>
+                            <option value="uttarakhand">Uttarakhand</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="postal code" class="label">Postal Code</label>
+                        <input type="number" style="width: 60px;">
+                        <label for="country">Country</label>
+                        <input type="text" name="" id="" size="10">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Single Address</legend>
+                    <label for="">Are Mailing Address and Residential Address same ?</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Yes</label>
+                </fieldset>
+
+            </fieldset>
+            <fieldset>
+                <legend>Mailing Address</legend>
+                <div class="address">
+                    <label for="address1" class="label">Address 1</label>
+                    <input type="text" name="" id="" size="40">
+                </div>
+                <div class="address">
+                    <label for="address2" class="label">Address 2</label>
+                    <input type="text" name="" id="" size="40">
+                </div>
+                <div>
+                    <label for="suburb" class="label">Suburb</label>
+                    <input type="text" name="" id="" size="10">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="delhi">Delhi</option>
+                        <option value="uttar pradesh">Uttar Pradesh</option>
+                        <option value="uttarakhand">Uttarakhand</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="postal code" class="label">Postal Code</label>
+                    <input type="number" style="width: 60px;">
+                    <label for="country">Country</label>
+                    <input type="text" name="" id="" size="10">
+                </div>
+
+            </fieldset>
+
+            <div>
+                <div>
+                    <label for="" class="label">IHI Number 80036</label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="" class="label">Number Status</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="" class="label">Record Status</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="" class="label">Last Updated</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <input type="submit" value="Submit" class="input-button">
+                <input type="reset" value="Clear" class="input-button">
+            </div>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

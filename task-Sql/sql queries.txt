@@ -1,0 +1,21 @@
+
+Q1. To insert values in customer table.
+A. insert into customers values ('6','shubham','sharma','23','india');
+
+Q2. To insert multiple values in customers table.
+A. insert into customers values ('7','tommy','jones','25','US'),('8','franklin','williams','27','US');
+
+Q3. To get number of customers per country.
+A. select country,count(customer_id) as no_of_customers from customers group by country;
+
+Q4. To get the orders who have amount between 100 to 500.
+A. select * from orders where amount between 100 and 500;
+
+Q5. To get the first name and last name of customers who have bought Keypad.
+A. select first_name, last_name from customers where customer_id in (select customer_id from orders where item = 'Keyboard');
+
+Q6. To get the name of the countries where shipping status is Pending.
+A. select distinct country from customers where customer_id in (select customer from shippings where status='Pending');
+
+Q7. To get the number of orders per customer.
+A. select first_name, last_name, count(order_id) as no_of_orders from orders,customers on customers.customer_id = orders.customer_id group by orders.customer_id;

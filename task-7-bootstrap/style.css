@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* colors */
+
+.bg-primary-blue {
+    background-color: #F3F6FD;
+}
+
+.secondary-orange {
+    background-color: #f8e2bc;
+}
+
+.secondary-blue {
+    background-color: #e9e7fd;
+}
+
+.secondary-pink {
+    background-color: #ffd3e2;
+}
+
+.secondary-green {
+    background-color: #c8f7dc;
+}
+
+.secondary-sky {
+    background-color: #dbf6fd;
+}
+
+.light-orange {
+    background-color: #fff4ea;
+}
+
+.light-blue {
+    background-color: #f6f5fe;
+}
+
+.light-sky {
+    background-color: #f1fbfe;
+}
+
+.light-pink {
+    background-color: #ffedf3;
+}
+
+.light-green {
+    background-color: #e9fcf1;
+}
+
+.text-orange {
+    color: #ffae60;
+}
+
+.text-blue {
+    color: #8b80a4;
+}
+
+.text-sky {
+    color: #4692a6;
+}
+
+.text-pink {
+    color: #e86a95;
+}
+
+.text-green {
+    color: #90e0b2;
+}
+
+.text-grey {
+    color: #887f75;
+}
+
+.bg-grey {
+    background-color: #887f75;
+}
+
+.text-dark-grey {
+    color: rgb(90, 90, 90);
+}
+
+.font-sm {
+    font-size: 15px;
+}
+
+
+
+
+
+.icons {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.icons2 {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.search-form {
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    border: none;
+    border-radius: 20px;
+}
+
+.search-btn {
+    position: relative;
+    background-color: white;
+    border: none;
+    margin-top: 7px;
+    margin-left: -30px;
+}
+
+
+.section2 {
+    padding-right: 30px !important;
+    min-height: 90vh;
+    width: 100vw;
+}
+
+.internal {
+    background-color: #ffffff;
+    height: 99%;
+    width: 95%;
+    border-radius: 30px;
+    padding: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.project-info {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.mright {
+    margin-right: 20px;
+}
+
+.cardstyle {
+    padding: 15px !important;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.hr {
+    height: 2px;
+    background-color: #ffffff;
+    border: none;
+}
