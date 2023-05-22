@@ -116,6 +116,7 @@ body {
 
 .contacts {
     margin-top: 30px;
+    padding-left: 40px;
 }
 
 .contact-para {
@@ -158,4 +159,20 @@ body {
     width: 70%;
     height: 10px;
     background-color: rgb(58, 58, 114);
+}
+
+.languages {
+    padding-left: 40px;
+}
+
+.education {
+    padding-left: 40px;
+}
+
+.contacts {
+    padding-left: 40px;
+}
+
+a {
+    color: white;
 }
