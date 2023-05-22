@@ -1,5 +1,6 @@
 const nameList = document.getElementById('nameList');
 const personDetails = document.getElementById('postDetails');
+const personName = document.getElementById('username');
 
 // Fetch names from API
 fetch('https://jsonplaceholder.typicode.com/users')
@@ -20,7 +21,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
             btn.innerHTML = "Show Posts"
             name.textContent = person.name;
-            btn.addEventListener('click', () => fetchPersonDetails(person.id));
+            btn.addEventListener('click', () => fetchPersonDetails(person.id, person.name));
             div.appendChild(name);
             div.appendChild(btn);
             nameList.appendChild(div);
@@ -29,10 +30,15 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .catch(error => console.error('Error:', error));
 
 // Fetch posts by ID
-function fetchPersonDetails(userId) {
+function fetchPersonDetails(userId, personName) {
 
     // Clear previous details
     personDetails.innerHTML = '';
+
+
+    const username = document.getElementById('username');
+    username.innerHTML = personName;
+
 
     // Fetch posts from API
     fetch(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`)
@@ -44,6 +50,7 @@ function fetchPersonDetails(userId) {
         .catch(error => console.error('Error:', error));
     function insert(item) {
         const details = document.createElement('div');
+
         details.innerHTML = `
         <div class="content">
         <p><b>Title:</b> ${item.title}</p>
