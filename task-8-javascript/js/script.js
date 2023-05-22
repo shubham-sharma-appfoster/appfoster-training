@@ -10,6 +10,11 @@ form.addEventListener('submit', event => {
     const number = Number(document.querySelector('#number').value);
     const split = Number(document.querySelector('#count').value);
 
+    if (number <= 0) {
+        colorsDiv.innerHTML = "error";
+        Event.stopPropagation();
+    }
+
 
     for (let i = 0; i < split; i++) {
         result.push(Math.floor(number / split));
@@ -19,7 +24,9 @@ form.addEventListener('submit', event => {
     for (let i = 0; i < rem; i++) {
         result[i]++;
     }
+
     colorsDiv.innerHTML = "";
+    console.log("clicked");
     for (let i = 0; i < result.length; i++) {
         const color = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
         const colorDiv = document.createElement('div');
@@ -31,6 +38,11 @@ form.addEventListener('submit', event => {
         colorDiv.appendChild(text);
         colorsDiv.appendChild(colorDiv);
     }
+    document.querySelector('#number').value = "";
+    document.querySelector('#count').value = "";
+
 
 });
+
+
 
